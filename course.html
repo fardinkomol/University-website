@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c92832efaf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+
+    <!-- ---course---- -->
+
+
+    <section class="course">
+        <h1>
+            Courses We Offer
+        </h1>
+        <p>The most popular majors at our university include: Social Sciences, General; Biology/Biological Sciences, General; Mathematics, General; Computer and Information Sciences, General; History, General; Physical Sciences, General; Engineering.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>You'll need to submit the official transcripts from any previous schools, colleges or universities you have received a degree or credit. To apply to Harvard College, you need to submit Secondary School Report (including transcripts) and Mid-Year School Report for College.</p>
+            </div>
+            <div class="course-col">
+                <h3>Under graduation</h3>
+                <p>You'll need to submit the official transcripts from any previous schools, colleges or universities you have received a degree or credit. To apply to Harvard College, you need to submit Secondary School Report (including transcripts) and Mid-Year School Report for College.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post graduation</h3>
+                <p>You'll need to submit the official transcripts from any previous schools, colleges or universities you have received a degree or credit. To apply to Harvard College, you need to submit Secondary School Report (including transcripts) and Mid-Year School Report for College.</p>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <!-- ----facilities---- -->
+
+    <section class="facilities">
+        <h1>
+            Our facilities
+            </h1>
+            <p>Several dorms feature amenities like printing, laundry rooms, kitchens, common rooms, and music practice rooms. All first-year students are welcome to use these spaces, even if they don't reside in that particular dorm. You can view this interactive map to see each dorm's resources.</p>
+        
+
+            <div class="row">
+
+                <div class="facilities-col">
+                    <img src="./images/library.png" alt="">
+                    <h3>
+                        The Best Library
+                    </h3>
+                    <p>Our library's special collections and archives are open to all without a fee, by appointment. Please contact the holding library to learn more about accessing their items in person.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./images/basketball.png" alt="">
+                    <h3>
+                        World Class Playgroud
+                    </h3>
+                    <p>Our campus is home to 42 nation-leading Division I intercollegiate sports teams. Our outstanding varsity athletes excel in competition, fuel Crimson pride across campus, and carry on the rich legacy of Harvard Athletics.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./images/cafeteria.png" alt="">
+                    <h3>
+                        Wonderful Meal
+                    </h3>
+                    <p>Serving hours will run from 11:30am-2:00pm daily, available in every House plus Annenberg (limited to first-years). It will feature entrees, sandwiches, soups and chilis, and salads, with a refined menu focused on quick-service and nutritious choices.</p>
+                </div>
+
+            </div>
+
+
+    </section>
+
+
+    <!-- ----footer--- -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The English language and literature programs at Harvard aim<br> to provide its candidates with a broad knowledge of the English language and culture, along with its critical and cultural theory. <br>It also includes several facilities with the tools of scholarship.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Designed by <i class="fa-regular fa-heart"></i> Fardin Alam </p>
+    </section>
+
+
+    <!-- Toogle Menu by Javascript -->
+
+
+    <script>
+       var navLinks = document.getElementById("navLinks")
+       function showMenu(){
+        navLinks.style.right = "0"
+       }
+       function hideMenu(){
+        navLinks.style.right = "-200px"
+       }
+    </script>
+</body>
+</html>

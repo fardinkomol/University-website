@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c92832efaf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Online Programs for 2022</h1>
+    </section>
+
+
+    <!-- ----blog-page--- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./images/certificate.jpg" alt="">
+                <h2>Online Certificates for Online Program 2022</h2>
+                <p>Online courses at here are worth it if you are looking to earn a reputable certificate from a world-famous Ivy League university. Harvard University offers tons of courses in the areas of data science, computer science, education, and business, and having an additional certification is helpful for your career.</p>
+                <br>
+                <p>
+                    online courses at Harvard are worth it if you are looking to earn a reputable certificate from a world-famous Ivy League university. Harvard University offers tons of courses in the areas of data science, computer science, education, and business, and having an additional certification is helpful for your career.
+                </p>
+                <br>
+                <p>online courses at Harvard are worth it if you are looking to earn a reputable certificate from a world-famous Ivy League university. Harvard University offers tons of courses in the areas of data science, computer science, education, and business, and having an additional certification is helpful for your career.</p>
+                <br>
+                <p>online courses at Harvard are worth it if you are looking to earn a reputable certificate from a world-famous Ivy League university. Harvard University offers tons of courses in the areas of data science, computer science, education, and business, and having an additional certification is helpful for your career.</p>
+
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Your name">
+                        <input type="email" placeholder="Your email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submist" class="hero-btn red-btn">Post</button>
+                    </form>
+
+                </div>
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Catagories</h3>
+                <div>
+                    <span>Computer Science</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>29</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Web Development</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Environmenal Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Electrical Engineering</span>
+                    <span>36</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>18</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- ----footer--- -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The English language and literature programs at Harvard aim<br> to provide its candidates with a broad knowledge of the English language and culture, along with its critical and cultural theory. <br>It also includes several facilities with the tools of scholarship.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Designed by <i class="fa-regular fa-heart"></i> Fardin Alam </p>
+    </section>
+
+
+    <!-- Toogle Menu by Javascript -->
+
+
+    <script>
+       var navLinks = document.getElementById("navLinks")
+       function showMenu(){
+        navLinks.style.right = "0"
+       }
+       function hideMenu(){
+        navLinks.style.right = "-200px"
+       }
+    </script>
+</body>
+</html>
